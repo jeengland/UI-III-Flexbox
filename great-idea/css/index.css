@@ -184,6 +184,10 @@ footer {
 
 /* ----------------Styling for services.html---------------- */
 
+#services p, ul, .copyright {
+	font-size: 120%;
+}
+
 /* Header styling */
 
 #services-top {
@@ -241,3 +245,26 @@ footer {
 	margin-top: 5%;
 	background-color: white;
 }
+
+/* Styling for facts section */
+
+#facts {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+#facts div {
+	width: 45%
+}
+
+#facts img {
+	align-self: ibaseline;
+}
+
+ul {
+	margin-top: 2%;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+
