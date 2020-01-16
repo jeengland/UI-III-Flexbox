@@ -70,6 +70,16 @@ h1, h2, h3, h4, h5 {
 body {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+}
+
+/* Header styling  */
+
+header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 /* Navbar styling */
@@ -151,16 +161,10 @@ main {
 
 footer {
 	width: 90%;
-	margin: auto;
-	margin-top: 5%;
-	margin-bottom: 5%;
-}
-
-#contact p {
-	margin-top: 1%;
+	display: flex;
+	flex-direction: column;
 }
 
 #copyright {
-	width: 15%;
-	margin: auto;
+	align-self: center;	
 }
