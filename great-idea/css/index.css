@@ -65,12 +65,19 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/* Body styling */
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
 /* Navbar styling */
 
 nav {
-	position: fixed; 
+	/* position: fixed; 
 	z-index: 10;
-	top: 0;
+	top: 0; */
 	width: 100%;
 	background-color: grey;
 	display: flex;
@@ -86,25 +93,23 @@ nav a {
 /* Hero image styling */
 
 #hero {
-	margin: auto;
-	margin-top: 10%;
-	margin-bottom: 5%;
-	width: 75%;
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
 }
 
 #hero div {
-	display: inline-block;
-	margin: auto;
+	
 }
 
 #hero img {
-	margin-left: 30%;
+	
 }
 
 h1 {
 	font-size: 500%;
 	text-align: center;
-	margin-top: -50%;
+	
 }
 h2 {
 	border: solid black 2px;
