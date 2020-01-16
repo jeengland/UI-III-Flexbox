@@ -73,6 +73,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	font-size: 120%;
 }
 
 /* Header styling  */
@@ -185,12 +186,6 @@ footer {
 /* ----------------Styling for services.html---------------- */
 
 /* Body styling */
-
-#services p, ul, .copyright {
-	font-size: 120%;
-}
-
-/* Header styling */
 
 #services header {
 	margin-bottom: 4%;
