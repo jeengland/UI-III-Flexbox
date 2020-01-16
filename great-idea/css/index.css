@@ -65,6 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/* ----------------Styling for index.html---------------- */
+
 /* Body styling */
 
 body {
@@ -80,6 +82,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	align-items: center;
 	margin-bottom: 10%;
 }
 
@@ -90,6 +93,7 @@ nav {
 	z-index: 10;
 	top: 0;
 	width: 100%;
+	padding: 0.75% 0 0.75%;
 	background-color: grey;
 	display: flex;
 	justify-content: space-around;
@@ -177,3 +181,27 @@ footer {
 	margin-top: 2%;
 	align-self: center;	
 }
+
+/* ----------------Styling for services.html---------------- */
+
+/* Header styling */
+
+#services-header {
+	width: 90%;
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#services-header div {
+	margin-top: 2%;
+	padding-bottom: 4%;
+	border-bottom: 2px black solid;
+}
+
+#services-header h1 {
+	font-size: 200%;
+	text-align: left;
+}
+
