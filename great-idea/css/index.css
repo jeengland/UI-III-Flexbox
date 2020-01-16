@@ -184,13 +184,15 @@ footer {
 
 /* ----------------Styling for services.html---------------- */
 
+/* Body styling */
+
 #services p, ul, .copyright {
 	font-size: 120%;
 }
 
 /* Header styling */
 
-#services-top {
+#services header {
 	margin-bottom: 4%;
 }
 
@@ -267,4 +269,11 @@ ul {
 	list-style-position: inside;
 }
 
+/* Footer styling */
 
+#services footer {
+	margin: 5% 0 5%;
+	display: flex;	
+	flex-direction: row;
+	justify-content: center;
+}
