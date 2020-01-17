@@ -272,3 +272,13 @@ ul {
 	flex-direction: row;
 	justify-content: center;
 }
+
+@media only screen and (max-width: 1024px) {
+	#services main {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.main-box {
+		width: 80%;
+	}
+  }
